@@ -11,3 +11,7 @@ jobs:
           node-version: '16'
       - run: npm install -g bats
       - run: bats -v
+  run-app:
+    runs-on: ubuntu-latest
+    steps:
+      - run: npm start
