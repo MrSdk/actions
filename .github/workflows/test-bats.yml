@@ -23,7 +23,7 @@ jobs:
       - run: npm ci
       - run: npm start
       - name: Create comment
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment
         with:
           issue-number: 1
           body: |
