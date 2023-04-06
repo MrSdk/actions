@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "lib": ["ES2021"],
+    "esModuleInterop": true
+  },
+  "entities": ["src/**/!(*.spec.ts)"],
+}
